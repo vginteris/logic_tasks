@@ -7,7 +7,7 @@ public class FizzBuzzMain {
         for (int i = 1; i <=50 ; i++) {
             String tempNumber = i + " - ";
             if (i % 3 == 0) tempNumber += multiplesThree;
-            if (i % 5 == 0) tempNumber += multiplesFive;
+             else if (i % 5 == 0) tempNumber += multiplesFive;
             System.out.println(tempNumber);
         }
     }

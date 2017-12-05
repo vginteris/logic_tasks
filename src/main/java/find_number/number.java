@@ -8,7 +8,6 @@ public class number {
         int min = 1;
         int checkNumber = 0;
         int count = 0;
-        int tempNumber = 0;
 
         while(randomSk != checkNumber) {
             checkNumber = (min + max) / 2;
